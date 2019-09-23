@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:background="@drawable/background"
+    android:layout_height="wrap_content"
+    android:elevation="1dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_marginBottom="20dp"
+            android:id="@+id/txtTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2019/09/23 8:00"
+            android:textSize="20sp"/>
+        <TextView
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:id="@+id/txtJudul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ULANGAN PWPB"
+            android:textSize="20sp"/>
+        <TextView
+            android:textColor="#000"
+            android:id="@+id/txtDeskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Semangat ya"
+            android:textSize="20sp"/>
+    </LinearLayout>
+</LinearLayout>
